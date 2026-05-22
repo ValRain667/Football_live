@@ -1,0 +1,51 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & Secrets
+.env
+!.env.example
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+football_live_hub.db
+
+# Backend logs
+backend/out.log
+backend/server.log
+backend/uvicorn_err.txt
+*.log
+
+# Frontend / Node
+node_modules/
+.nuxt/
+.output/
+dist/
+*.local
+
+# Frontend logs
+frontend/out.log
+frontend/server.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE (optional — uncomment if you want to ignore IDE settings)
+# .idea/
+# .vscode/
